@@ -1,0 +1,23 @@
+some useful command
+
+#配置init
+git config --global init.defaultBranch main
+
+#初始化git
+git init
+
+#关联本地仓库与github仓库
+git remote add origin git@github.com:2021AY/testfirst.git
+
+#同步仓库到本地
+git pull git@github.com:2021AY/testfirst.git
+
+#把本地的上传到仓库
+git add . ，add后面的点，表示的是提交所有文件。如果想指定提交文件，可以写文件名
+git commit -m "第一次提交github的测试"
+git push git@github.com:2021AY/testfirst.git
+
+#重命名
+git branch -m master main
+
+#
