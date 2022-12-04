@@ -21,4 +21,5 @@ git push git@github.com:Xicheng-Uni-Stuttgart/testfirst.git
 git branch -m master main
 
 #push的用法
-
+如果修改过某些代码,宪宗git add .上传文件到索引库，然后用git commit提交到本地仓库，然后用
+git push origin main提交到github上面的main branch
